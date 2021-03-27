@@ -4,11 +4,9 @@ import { withRouter } from 'react-router-dom'
 
 import { seedDevices } from 'seedData/devices.json'
 import DeviceList from './DeviceList'
-import  ErrorBoundary from 'ErrorHandling/ErrorBoundary'
 
 const Devices = () => (
   <Grid>
-    <ErrorBoundary >
       <Grid.Row>
         <Menu position='right'>
           <Menu.Item>
@@ -25,7 +23,6 @@ const Devices = () => (
           <DeviceList devices={seedDevices} />        
       </Grid.Row>
 
-    </ErrorBoundary>
   </Grid>
 )
 
