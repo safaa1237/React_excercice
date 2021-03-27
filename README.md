@@ -1,7 +1,5 @@
 # React_excercice
 
-# React_exercce ERROR HANDLING
-
 
 ## Table of contents
 * [General info](#general-info)
