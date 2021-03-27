@@ -8,8 +8,7 @@ import  ErrorBoundary from 'ErrorHandling/ErrorBoundary'
 
 const Devices = () => (
   <Grid>
-    <ErrorBoundary>
-
+    <ErrorBoundary >
       <Grid.Row>
         <Menu position='right'>
           <Menu.Item>
@@ -25,7 +24,7 @@ const Devices = () => (
       <Grid.Row>
           <DeviceList devices={seedDevices} />        
       </Grid.Row>
-      
+
     </ErrorBoundary>
   </Grid>
 )

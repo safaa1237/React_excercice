@@ -7,13 +7,14 @@ export default class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hasError: true,
+      hasError: false,
     };
   }
 
-  componentDidCatch(error) {
+  componentDidCatch(error , info) {
     //changing the state of the default haserror state to then show the custom ui
     this.setState({ hasError: true });
+
     //logging the error in our server
     ServerAPI.reportError(error);
   }
@@ -26,6 +27,7 @@ export default class ErrorBoundary extends Component {
         </div>
       );
     }
-    return this.props.children;
+    return this.props.children
   }
 }
+
