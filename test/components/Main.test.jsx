@@ -29,4 +29,6 @@ describe('Main.jsx', () => {
       SIDEBARITEMS.forEach(getByText)
     })
   })
+
+  
 })
