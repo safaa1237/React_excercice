@@ -1,7 +1,4 @@
-# React_excercice
-
-# High-Score-GAme
-
+# React_excercice Error handling
 
 ## Table of contents
 * [General info](#general-info)
