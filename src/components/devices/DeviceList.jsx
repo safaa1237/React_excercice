@@ -1,6 +1,5 @@
 import React from 'react'
 import { Grid, Card } from 'semantic-ui-react'
-
 import DeviceWidget from 'components/device/DeviceWidget'
 
 const renderDeviceWidget = device => (
